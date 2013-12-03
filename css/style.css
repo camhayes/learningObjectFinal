@@ -46,8 +46,9 @@ li p{margin: 0 auto 0 auto;}
 
 
 /* ===== Primary default Styles ========================================================
-   Author:Ian Vanhoof (ian@fscj.edu>
+   Lead Author:Ian Vanhoof (ian@fscj.edu>
    Graphic Design: Eddie Rodriguez (E.Rodriguez@fscj.edu)
+   Author:Cam Hayes(cahayes@fscj.edu>
    
    ========================================================================== */
 	/* ==================== Color Controls.  */
@@ -113,7 +114,7 @@ li p{margin: 0 auto 0 auto;}
 	.CEL-tabNav-current{background-color: red !important;}
 
 /* =============================================================================
-  Begin Cams Cel Table styles
+  Begin Cel Table styles
   ========================================================================== */
 
 .CEL-table { border: 1px solid #999; background-color: #EDEDED; position: relative; margin: 5px 5px 10px 5px;  overflow: auto; }
@@ -253,7 +254,7 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 
 	
 	/* =====================================================     The Matching Game CSS Styles =================================== */
-        #dragAnswerList{list-style: none;float: left;margin-top: 0;padding-top: 0;}
+     #dragAnswerList{list-style: none;float: left;margin-top: 0;padding-top: 0;}
 		.answerIcon{width: 1.5em;height: 1.3em;display: inline-block;}
 		.answerList{text-decoration: none;margin: 0 10px 0 0;padding: 0;white-space: nowrap;list-style-type:none;width: 100%;float: right;}
 		.answerList li{display: inline;float: right;}
@@ -400,7 +401,7 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 
 
 /* =============================================================================
-   Non-Semantic Helper Classes
+   HTML5Boilerplate Non-Semantic Helper Classes
    ========================================================================== */
 
 
@@ -412,7 +413,7 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 .hidden {display: none !important;visibility: hidden;}
 
 /* =============================================================================
-   Print Styles
+   HTML5Boilerplate Print Styles
    ========================================================================== */
  
 @media print {
