@@ -66,7 +66,7 @@ We are working right now to provide good Docs for this, but they are not complet
 
 You have two resources available to you. 
 
-1. The Quick Start Guide included with each download. (Look for the "quick-start-guide.md" located in the root directory.)
+1. [The Quick Start Guide wiki page](https://github.com/fscjCEL/learningObjectFinal/wiki). A copy of the file is also included with each download. (Look for the "quick-start-guide.md" located in the root directory.)
 
 2. The [Learning Object Demo](http://cel.fscj.edu/LO-dev/CEL-LO-mark2-demo-SME/index.html) -   All of the tested features, and layout examples are located inside the demo. Examine the page's source for any examples you might need. 
 
