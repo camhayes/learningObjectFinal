@@ -3,9 +3,9 @@
 
 ###Introduction
 
-This boilerplate is intended for use by front end web developers who work in education and need a platform to deliver content in a way that is accessible, device agnostic, standards compliant(as much as possible), and well tested. 
+This boilerplate is intended for use by front end web developers who work in education and need a platform to deliver accessible content that is device agnostic, standards compliant, and well tested. 
 
-In order to use this template effectively, you must be comfortable using HTML, CSS and Javascript enough to read and modify what is already in place. 
+In order to use this template effectively, you should be proficient enough in HTML, CSS and Javascript to read and modify what is already in place. 
 
 NOTE: All the elements seen in the quick start guide have been put together as an example for you to use in the Learning Object Demo Located [HERE...](http://cel.fscj.edu/LO-dev/CEL-LO-mark2-demo-SME/index.html) So feel free to check it out, and don't forget to *view source*.
 
@@ -13,7 +13,7 @@ NOTE: All the elements seen in the quick start guide have been put together as a
 When you download the full framework you will find that it is one Learning Object filled with 30 slides. The NAV elements are all located at the top inside the "**CEL-navElements-container**."
 
 Below that are TWO audio player elements listed one after the other as "**mediaGroup**"(s.)
-Below that is the Help Panel. Customize it to your heart's content.
+Next is the Help Panel. Customize it to your heart's content.
 
 Under that you will find each of 30 slides.
 
@@ -25,7 +25,7 @@ Keep in mind that if you fill 16 slides with content, you need to delete the rem
 
 Instructors may want to include an audio file to accompany the content of some, or all, of the slides. The Learning object senses if there is a media player for that slide, and only displays it of one exists. 
 
-Take a look at the media player elements, they are all grouped just after the nav elements in the nav element container. 
+Take a look at the media player elements. They are all grouped after the nav elements in the nav element container. 
 
 Here is an example...
 
@@ -42,7 +42,7 @@ Here is an example...
 		<div  class="CEL-mediaButton pause"><img src="img/pauseButton.png" alt="pause audio button"></div>
 	</div><!-- end mediaGroup --> 
 	
-This is the media player for slide 1. To make a media player for slide 7 just copy/paste this bit of code after the other media player elements, and change the ID of the audio element to "slide7Media". Next, make sure your audio files are in the media folder, and that the names of the files match the src attribute (path) located in the  source element.
+This is the media player for slide 1. To make a media player for slide 7, copy/paste this bit of code after the other media player elements, and change the ID of the audio element to "slide7Media". Next, make sure your audio files are in the media folder, and that the names of the files match the src attribute (path) located in the  source element.
 
 If your audio files are named slide7MP3File.mp3 and slide7OGGfile.ogg your media player would look like this...  
 
@@ -160,7 +160,7 @@ One of our main goals was to incorporate each HTML element's natural behavior. T
 	<div class="CEL-divider"></div><!-- end divider -->
 ####- The Print Header
 
-The print header is a styled header you might use at the top of the slide.
+The print header is a styled header you may optionally include at the top of the slide.
 
 	<div class="CEL-printHeader clearfix">
 		<img class="printHeaderColorBar" src="img/CEL-coloredBar.jpg"  alt="Slide print header color bar">
