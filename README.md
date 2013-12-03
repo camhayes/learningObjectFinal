@@ -53,9 +53,10 @@ Local copies of Normalizer, Modernizer, and jQuery are included, but feel free t
 Link to the Google font I used in the demo...[Lato](http://www.google.com/fonts/specimen/Lato) 
 
 ###We Used [HTML5 Boilerplate](http://html5boilerplate.com/)
-This Learning Object was made on top of the [HTML5 Boilerplate](http://html5boilerplate.com/). Much credit goes to the HTML5 Boilerplate developers for providing a solid base upon which to work, BUT keep in mind that **you should review your code before deployment to make sure you delete all the "Extra" CSS classes that are included in this template**.
+This Learning Object was made on top of the [HTML5 Boilerplate](http://html5boilerplate.com/). 
 
-It is a template after all so we kept all the little bits in so that the developer has some wiggle room. Just don't forget to pull out all the extra CSS. We do. 
+Much credit goes to the HTML5 Boilerplate developers for providing a solid base upon which to work, BUT keep in mind that **you should review your code before deployment to make sure you DELETE all the "Extra" CSS classes that are included in this template**.
+We chose to leave all the extra CSS classes in the code because we chose not to assume any use case scenarios. Just remember to audit your css before you deploy to avoid CSS Bloat. 
 
 ##Docs
 
@@ -63,9 +64,11 @@ We are working right now to provide good Docs for this, but they are not complet
 
 ###Until Then...
 
-All of the tested features, and layout examples exist in our [Learning Object Demo.](http://cel.fscj.edu/LO-dev/CEL-LO-mark2-demo-SME/index.html)  
+You have two resources available to you. 
 
-Take a look at the page source for any examples you might need. 
+1. The Quick Start Guide included with each download. (Look for the "quick-start-guide.md" located in the root directory.)
+
+2. The [Learning Object Demo](http://cel.fscj.edu/LO-dev/CEL-LO-mark2-demo-SME/index.html) -   All of the tested features, and layout examples are located inside the demo. Examine the page's source for any examples you might need. 
 
 Cheers.
 
