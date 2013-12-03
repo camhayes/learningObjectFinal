@@ -1,7 +1,6 @@
 #FSCJ Learning Object Boilerplate 
 
 ##(Mark 2 Final)
-==========
 
 This is the latest stable/tested version of the FSCJ Learning Object. 
 
