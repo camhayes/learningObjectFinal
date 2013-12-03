@@ -268,14 +268,14 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 	/* 2600px */
 	/* Changing the size and margins of the type as the page gets larger */
 	/* =======================================================typography */
-	h1{font-size: 3.75em;line-height: 1.5em;} /* 60pxs */
-	h2{font-size: 3em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 48pxs */
-	h3{font-size: 2.25em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 36pxs */
-	h4{font-size: 1.5em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
-	h5{font-size: 1.3125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
-	h6{font-size: 1.125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
-	p{font-size: 1.3125em;line-height: 1.5em;padding-left:.75em;padding-right: .5em;} /* 18pxs */
-	body { margin: 0; font-size: 1.3125em; line-height: 1.5em; }/* 18pxs */
+	h1{font-size: 3.75em;line-height: 1.5;} /* 60pxs */
+	h2{font-size: 3em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 48pxs */
+	h3{font-size: 2.25em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 36pxs */
+	h4{font-size: 1.5em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
+	h5{font-size: 1.3125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
+	h6{font-size: 1.125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
+	p{font-size: 1.3125em;line-height: 1.5;padding-left:.75em;padding-right: .5em;} /* 18pxs */
+	body { margin: 0; font-size: 1.3125; line-height: 1.5em; }/* 18pxs */
 	#directionsButton p{color: #333;width: 100%;text-align: center;margin:0;padding: .4em .25em 0 .25em;}
 	
 }
@@ -286,14 +286,14 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 	/* Changing the size and margins of the type as the page gets larger */
 	
 	/* =======================================================typography */
-	h1{font-size: 3em;line-height: 1.5em;} /* 48pxs */
-	h2{font-size: 2.25em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 36pxs */
-	h3{font-size: 1.5em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
-	h4{font-size: 1.3125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
-	h5{font-size: 1.125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
-	h6{font-size: 1em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 16pxs */
-	p{font-size: 1em;line-height: 1.5em;padding-left:.75em;padding-right: .5em;} /* 16pxs */
-	body { margin: 0; font-size: 1em; line-height: 1.5em; }/* 16pxs */
+	h1{font-size: 3em;line-height: 1.5;} /* 48pxs */
+	h2{font-size: 2.25em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 36pxs */
+	h3{font-size: 1.5em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
+	h4{font-size: 1.3125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
+	h5{font-size: 1.125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
+	h6{font-size: 1em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 16pxs */
+	p{font-size: 1em;line-height: 1.5;padding-left:.75em;padding-right: .5em;} /* 16pxs */
+	body { margin: 0; font-size: 1em; line-height: 1.5; }/* 16pxs */
 	
 	
 	/* THis changes the vertical alignment of the navElements and the Audio controller text */
@@ -309,15 +309,15 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 	/* 1060 px */
 	/* Changing the size and margins of the type as the page gets larger */
 	/* =======================================================typography */
-	h1{font-size: 2.25em;line-height: 1.5em;} /* 36pxs */
-	h2{font-size: 1.5em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
-	h3{font-size: 1.3125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
-	h4{font-size: 1.125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
-	h5{font-size: 1em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 16pxs */
-	h6{font-size: .875em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 14pxs */
+	h1{font-size: 2.25em;line-height: 1.5;} /* 36pxs */
+	h2{font-size: 1.5em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
+	h3{font-size: 1.3125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
+	h4{font-size: 1.125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
+	h5{font-size: 1em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 16pxs */
+	h6{font-size: .875em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 14pxs */
 	
-	p{font-size: 1em;line-height: 1.5em;padding-left:.75em;padding-right: .5em;} /* 16pxs */
-	body { margin: 0; font-size: 1em; line-height: 1.5em; }/* 16pxs */
+	p{font-size: 1em;line-height: 1.5;padding-left:.75em;padding-right: .5em;} /* 16pxs */
+	body { margin: 0; font-size: 1em; line-height: 1.5; }/* 16pxs */
 	
 	
 	/* THis changes the vertical alignment of the navElements and the Audio controller text */
