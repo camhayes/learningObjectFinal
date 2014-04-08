@@ -49,7 +49,7 @@ $(document).ready(function(){
 	$("ol").attr("role","list");
 	$("ul").attr("role","list");
 	$("li").attr("role","listitem");
-	/* This adds a warning for screen readers when a link navigates away from the current page. */ 
+	/* This adds a warning for screen readers when a link navigates away from the current page.*/
 	$('a[target="_blank"]').attr("title","NOTE: This is a link that leads to an external page and opens in a different window.");
 	window.location = "#top";
 	
@@ -67,13 +67,13 @@ $(document).ready(function(){
 	/* -------------------------------------------------------------------------------------------- The Button Methods */
 	
 	/* Listener for the slide changeing method */
-	/* NOTE: this only adds the interactivity, the actual slide changeing happens in the activeSlide function 	 */
+	/* NOTE: this only adds the interactivity, the actual slide changeing happens in the activeSlide function */
 	function navClickEvent(){
 		/* collect the clicked slide number and send it off to the function that actually makes the change */
 			var whatHaveIclickedOne = $(this).children("p").text();
 			var theREALwhatHaveICLickedOn = parseInt(whatHaveIclickedOne);
 			activeSlide(theREALwhatHaveICLickedOn);
-	};/* end function */
+	}/* end function */
 	//gather all the elements inside the nav element container element
 	var theNavElements = document.getElementById("CEL-navElements-container").children;
 	
@@ -82,7 +82,7 @@ $(document).ready(function(){
 			/* grab the classname */
 			var theElementClassname = theNavElements[i].className;
 			/* if it's a navelement then add the listener */
-			if (theElementClassname == "CEL-navElement"){
+			if (theElementClassname === "CEL-navElement"){
 				
 				theNavElements[i].addEventListener("click", navClickEvent, false);
 			}/* end if */
@@ -90,18 +90,18 @@ $(document).ready(function(){
 			var theChildrensChildrenLOL = theNavElements[i].children;
 			/* if there is more than one child... it's a media player */
 			if (theChildrensChildrenLOL.length > 2){
-				/* Loop through the media player children element. if its a play or pause button then add the listener. */ 
+				/* Loop through the media player children element. if its a play or pause button then add the listener. */
 				for(c=0 ; c<theChildrensChildrenLOL.length ; c++){
 					var theChildrensChildrensClassname = theChildrensChildrenLOL[c].className;
 					if (theChildrensChildrensClassname == "CEL-mediaButton play"){
 						theChildrensChildrenLOL[c].addEventListener("click", playAudio, false);
 					}/* end if */
-					if (theChildrensChildrensClassname == "CEL-mediaButton pause"){
+					if (theChildrensChildrensClassname === "CEL-mediaButton pause"){
 						theChildrensChildrenLOL[c].addEventListener("click", pauseAudio, false);
 					}/* end if */
 				}/* end for */
 			}/* end if */
-		};/* end for loop */
+		}/* end for loop */
 	/*  These functions play and pause audio */
 	function playAudio(){
 			var whichAudioSlideNum = getTheCurrentSlideNumber();
