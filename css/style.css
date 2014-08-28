@@ -4,11 +4,11 @@
    ========================================================================== */
 
 
-audio,canvas,video { display: inline-block; *display: inline; *zoom: 1; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-html, button, input, select, textarea { font-family: 'Lato', sans-serif; color: #222; }
+html, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #222; }
 ::-moz-selection { background: #95c2eb; color: #fff; text-shadow: none; }
 ::selection { background: #95c2eb; color: #fff; text-shadow: none; }
 a { color: #00e; }
@@ -40,27 +40,26 @@ label { cursor: pointer; }
 legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
-.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 li p{margin: 0 auto 0 auto;}
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
 
 
 /* ===== Primary default Styles ========================================================
-   Lead Author:Ian Vanhoof (ian@fscj.edu>
+   Author:Ian Vanhoof (ian@fscj.edu>
    Graphic Design: Eddie Rodriguez (E.Rodriguez@fscj.edu)
-   Author:Cam Hayes(cahayes@fscj.edu>
    
    ========================================================================== */
 	/* ==================== Color Controls.  */
 	
 	/* Changes the color of the main header, and the color of the text */ 
-	.CEL-LO-Page-header{background-color: #000000;color: #FFFFFF;}
+	.CEL-LO-Page-header{background-color: #575C98;color: #FFFFFF;}
 	
 	/* changes the color of the print header if there is any  */
-	.CEL-printHeader{background-color: #333;}
+	.CEL-printHeader{background-color: #0066AC;}
 	
 	/* change out the main background graphic  */
-	body{background-image: url(../img/CEL-mainBackground.png);}
+	body{background-image: url(../img/FFFK-mainBackground.jpg);}
 	
 	/* change the navigation button default color */
 	.CEL-navElement{background-color: #ededed;}
@@ -69,14 +68,14 @@ li p{margin: 0 auto 0 auto;}
 	.CEL-navElement:hover{background-color: #fdfdfd;}
 	
 	/* change the navigation button's visited slide color */
-	.CEL-pastSlide{background-color: #777;}
+	.CEL-pastSlide{background-color: #575C98;}
 	
 	/* change the navigation button's current slide state color */
-	.CEL-currentSlide{background-color: #FF0201;}
+	.CEL-currentSlide{background-color: #EA8327;}
 	
 	/* change the color of the well header background, and background. */
 	.well{background-color: #eee;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
-	.well h1, .well h2, .well h3, .well h4, .well h5, .well h6{background-color: #777;color: #fff;border-top-left-radius: 5px;border-top-right-radius: 5px;text-align: center;}
+	.well h1, .well h2, .well h3, .well h4, .well h5, .well h6{background-color: #487BD4;color: #fff;border-top-left-radius: 5px;border-top-right-radius: 5px;text-align: center;}
 	
  	/* =================> High level styles */
 	
@@ -84,14 +83,13 @@ li p{margin: 0 auto 0 auto;}
 	.shadow {-moz-box-shadow: 3px 3px 4px #555;-webkit-box-shadow: 3px 3px 4px #555;box-shadow: 3px 3px 4px #555;
 	/* For IE 8 */	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#555555')";
 	/* For IE 5.5 - 7 */filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#555555');}
-	body{font-family: 'Lato', sans-serif; font-weight: 400;}
+	body{font-family: 'Open Sans', sans-serif; font-weight: 400;}
 	.CEL-LO-Page{position:relative;top:0;left:0;width: 100%;height:6.25em;margin: auto;}
 	img, audio, canvas, video, iframe{max-width: 100%;} 
 	object{position:absolute; left:0; top:0; width:100%; height:100%;}
-	.CEL-videoBox{padding-top:60.4167%;position:relative;}/* NOTE: padding top value is derived using height/width = padding-top value */
-	.CEL-videoBox object, .CEL-videoBox iframe{position: absolute;left:0;top:0;width:100%;height:100%;}
-	h1{font-family: 'Lato', sans-serif;font-weight: 400;}
-	h2{font-family: 'Lato', sans-serif;font-weight: 700;}
+	.CEL-video{padding-top:65.48%; position:relative;}
+	h1{font-family: 'Fjalla One', sans-serif;font-weight: 400;}
+	h2{font-family: 'Open Sans', sans-serif;font-weight: 700; color:#0066AC;}
 	
 /* CEL reveal widget styles */
 .CEL-revealTarget{opacity: 0;}
@@ -100,21 +98,28 @@ li p{margin: 0 auto 0 auto;}
 	
 	.CEL-accordion-container{float: left;width: 100%;margin: 0;padding: 0;display: inline-block;}
 	.CEL-accordionBox{float: left;width: 100%;margin: 0;padding: 0;display: inline-block;}
-	.CEL-accordionHeader{background-color: #999;margin: .125em 0 .125em 0;padding: 0 0 0 10px;border-radius: 5px;}
-	.CEL-accordionHeader:hover{background-color: #777;}
+	.CEL-accordionHeader{color: #fff; background-color: #8dc640;margin: .125em 0 .125em 0;padding: 0 0 0 10px;border-radius: 5px;}
+	.CEL-accordionHeader:hover{background-color: #f58026;}
 	
 	
 /* Tabular Widget Styles */
 
-	.CEL-tabular-container{float: left;width: 99%;margin: 0;padding: .5em;display: inline-block;background-color: #ededed;border-radius: 3px;}
+	.CEL-tabular-container{float: left;width: 99%;margin: 0;display: inline-block;border-radius: 3px;}
 	.CEL-tabNavContainer{float: left;width: 100%;margin: 0 .125em .125em 0;padding: 0;display: inline-block;}
-	.CEL-tabNav{float: left;display: inline-block;color:#FFF;background-color: #777;border: 1px solid #666; padding: .25em .5em .25em .5em;margin: .25em .25em -.18em 0;border-radius: 3px;}
-	.CEL-tabNav:hover{background-color: #fff;color: #333;}
+	.CEL-tabNav{float: left;display: inline-block;color:#FFF;background-color: #8dc640;border: 1px solid #666; padding: .25em .5em .25em .5em;margin: .25em .25em -.18em 0;border-radius: 3px;}
+	.CEL-tabNav:hover{background-color: #ededed;color: #000;}
 	.CEL-tab-content{float: left;width: 100%;margin: 0;display: inline-block;opacity: 0;padding-top: .5em;}
-	.CEL-tabNav-current{background-color: red !important;}
+	.CEL-tabNav-current{background-color: #f58026 !important;}
+	
+/* Deep Linking Button */
+
+	#CEL-ReturnButton {background-color: #8DC640;padding: .5em;margin: 0 auto;margin-bottom: 1em;border-radius: 5px;border: 1px solid #999;width: 10em;text-align: center;}
+	#CEL-ReturnButton:hover {background-color: #F58026;}
+	#CEL-ReturnButton a {font-size: 1.2em;text-decoration: none;color:#000;}
+	
 
 /* =============================================================================
-  Begin Cel Table styles
+  Begin Cams Cel Table styles
   ========================================================================== */
 
 .CEL-table { border: 1px solid #999; background-color: #EDEDED; position: relative; margin: 5px 5px 10px 5px;  overflow: auto; }
@@ -133,8 +138,10 @@ li p{margin: 0 auto 0 auto;}
 
 /* The divs containing the Left and Right text are below. These are set PERFECTLY to match a coherent size and NOT BREAK when scaling down. Do not touch the margins, padding, or widths otherwise you're just breaking things. */
 
-div.left { color: #000; margin: 10px 0 10px 1px; display:inline-block; width: 40%; padding: 10px 0 10px 10px; word-wrap: break-word; font-weight: bold; height: 100%; vertical-align: middle; }
-div.right { color: #000; margin: 10px 4px 10px 0; width: 49%; padding: 10px 0 10px 0; float:right; word-wrap:break-word; }
+     div.left { float: left; width: 50%; word-wrap: break-word; }
+     div.right { float: right; width: 49.5%; word-wrap: break-word; }
+     div.right-divide { border-left: 1px dotted #666; }
+     div.left-divide { border-right: 1px dotted #666; }
 
 /* Rows are color coded to make them more visually stimulating. The final row in your table should be the ONLY one that uses div.row.bottom. This prevents the issue of stacking borders */
 
@@ -181,7 +188,7 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 	
 	
 	.CEL-LO-Page-header{float:left;width: 110%;height: 4.5em;overflow: hidden;margin-top: 0;}
-	#celLogo{float: left;width: 4.5em;margin: 0 0 0 1em;}
+	#celLogo{float: left;width: 6em;margin: 0 0 0 1em;}
 	.CEL-course-number{color: #FFF;height:4.5em;float: left;padding:1em 0 0 .25em;font-size: 1.5em;font-weight: bold;}
 	.CEL-course-name{color: #FFF;height:4.5em;float: left;padding:1em 0 0 1em;font-size: 1.5em;font-weight: bold;}
 
@@ -243,7 +250,7 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 	#nslpButton:hover{background-color: #555;color: #FFF;}
 	#nslpFullList{border: 3px solid #000;border-radius: 5px;}
 	#slidePopup{border: 3px solid #000;border-radius: 5px;}
-	#CEL-gotoTopLink{float: left;font-size: 1em;line-height: 1.5;font-weight: 700;margin-top: -11em;color:#fff;}
+	#CEL-gotoTopLink{float: left;font-size: 1em;line-height: 1.5;font-weight: 700;margin-top: -11em;color:#000;}
 	
 /* =================> Media Control styles */ 
 	.mediaGroup {float: left;height:3em;border: 1px solid #999;border-radius: 5px;margin-top: .25em;background-image: url("../img/transparentWhite.png");}
@@ -254,7 +261,7 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 
 	
 	/* =====================================================     The Matching Game CSS Styles =================================== */
-     #dragAnswerList{list-style: none;float: left;margin-top: 0;padding-top: 0;}
+        #dragAnswerList{list-style: none;float: left;margin-top: 0;padding-top: 0;}
 		.answerIcon{width: 1.5em;height: 1.3em;display: inline-block;}
 		.answerList{text-decoration: none;margin: 0 10px 0 0;padding: 0;white-space: nowrap;list-style-type:none;width: 100%;float: right;}
 		.answerList li{display: inline;float: right;}
@@ -268,14 +275,14 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 	/* 2600px */
 	/* Changing the size and margins of the type as the page gets larger */
 	/* =======================================================typography */
-	h1{font-size: 3.75em;line-height: 1.5;} /* 60pxs */
-	h2{font-size: 3em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 48pxs */
-	h3{font-size: 2.25em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 36pxs */
-	h4{font-size: 1.5em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
-	h5{font-size: 1.3125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
-	h6{font-size: 1.125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
-	p{font-size: 1.3125em;line-height: 1.5;padding-left:.75em;padding-right: .5em;} /* 18pxs */
-	body { margin: 0; font-size: 1.3125; line-height: 1.5em; }/* 18pxs */
+	h1{font-size: 3.75em;line-height: 1.5em;} /* 60pxs */
+	h2{font-size: 3em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 48pxs */
+	h3{font-size: 2.25em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 36pxs */
+	h4{font-size: 1.5em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
+	h5{font-size: 1.3125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
+	h6{font-size: 1.125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
+	p{font-size: 1.3125em;line-height: 1.5em;padding-left:.75em;padding-right: .5em;} /* 18pxs */
+	body { margin: 0; font-size: 1.3125em; line-height: 1.5em; }/* 18pxs */
 	#directionsButton p{color: #333;width: 100%;text-align: center;margin:0;padding: .4em .25em 0 .25em;}
 	
 }
@@ -286,18 +293,18 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 	/* Changing the size and margins of the type as the page gets larger */
 	
 	/* =======================================================typography */
-	h1{font-size: 3em;line-height: 1.5;} /* 48pxs */
-	h2{font-size: 2.25em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 36pxs */
-	h3{font-size: 1.5em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
-	h4{font-size: 1.3125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
-	h5{font-size: 1.125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
-	h6{font-size: 1em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 16pxs */
-	p{font-size: 1em;line-height: 1.5;padding-left:.75em;padding-right: .5em;} /* 16pxs */
-	body { margin: 0; font-size: 1em; line-height: 1.5; }/* 16pxs */
+	h1{font-size: 3em;line-height: 1.5em;} /* 48pxs */
+	h2{font-size: 2.25em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 36pxs */
+	h3{font-size: 1.5em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
+	h4{font-size: 1.3125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
+	h5{font-size: 1.125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
+	h6{font-size: 1em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 16pxs */
+	p{font-size: 1em;line-height: 1.5em;padding-left:.75em;padding-right: .5em;} /* 16pxs */
+	body { margin: 0; font-size: 1em; line-height: 1.5em; }/* 16pxs */
 	
 	
 	/* THis changes the vertical alignment of the navElements and the Audio controller text */
-	.CEL-navElement p {width: 100%;text-align: center;margin:0;padding: .7em 0 0 0;}
+	.CEL-navElement p {color: #333;width: 100%;text-align: center;margin:0;padding: .75em 0 0 0;}
 	.CEL-mediaTitle{float: left;height:3em;margin: 0 .2em 0 .5em;padding-top:.7em;}
 	
 	#directionsButton p{color: #333;width: 100%;text-align: center;margin:0;padding: .7em .25em 0 .25em;}
@@ -309,19 +316,19 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 	/* 1060 px */
 	/* Changing the size and margins of the type as the page gets larger */
 	/* =======================================================typography */
-	h1{font-size: 2.25em;line-height: 1.5;} /* 36pxs */
-	h2{font-size: 1.5em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
-	h3{font-size: 1.3125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
-	h4{font-size: 1.125em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
-	h5{font-size: 1em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 16pxs */
-	h6{font-size: .875em;line-height: 1.5;margin-top:0;padding-top:0;padding-left:.25em;} /* 14pxs */
+	h1{font-size: 2.25em;line-height: 1.5em;} /* 36pxs */
+	h2{font-size: 1.5em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 24pxs */
+	h3{font-size: 1.3125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 21pxs */
+	h4{font-size: 1.125em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 18pxs */
+	h5{font-size: 1em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 16pxs */
+	h6{font-size: .875em;line-height: 1.5em;margin-top:0;padding-top:0;padding-left:.25em;} /* 14pxs */
 	
-	p{font-size: 1em;line-height: 1.5;padding-left:.75em;padding-right: .5em;} /* 16pxs */
-	body { margin: 0; font-size: 1em; line-height: 1.5; }/* 16pxs */
+	p{font-size: 1em;line-height: 1.5em;padding-left:.75em;padding-right: .5em;} /* 16pxs */
+	body { margin: 0; font-size: 1em; line-height: 1.5em; }/* 16pxs */
 	
 	
 	/* THis changes the vertical alignment of the navElements and the Audio controller text */
-	.CEL-navElement p {width: 100%;text-align: center;margin:0;padding: .7em 0 0 0;}
+	.CEL-navElement p {color: #333;width: 100%;text-align: center;margin:0;padding: .75em 0 0 0;}
 	.CEL-mediaTitle{float: left;height:3em;margin: 0 .2em 0 .5em;padding-top:.7em;}
 	
 }
@@ -344,7 +351,7 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 	
 	.CEL-course-number{color: #FFF;height:4.5em;float: left;padding:.5em 0 0 .25em;font-size: 1em;font-weight: bold;}
 	.CEL-course-name{color: #FFF;height:4.5em;float: left;padding:.5em 0 0 .75em;font-size: 1em;font-weight: bold;}
-	#celLogo{float: left;width: 2.25em;margin: 0 0 0 1em;}
+	#celLogo{float: left;width: 3.25em;margin: 0 0 0 1em;}
 	.CEL-LO-Page-header{float:left;width: 110%;height: 2.5em;overflow: hidden;}
 	.CEL-mediaButton{float: left;height:3em;margin: -.4em .2em 0 .5em;padding-top:0; width: 1.5em;}
 	.printHeaderImage{display: none !important;visibility: hidden;}
@@ -386,8 +393,10 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 	/* This one is for tables only */
 	div.left {width: 100%; text-align: center; padding: 0; margin: 0; height: auto; text-decoration: underline; }
 	div.right {width: 90%; float: left; padding: 0; margin: 10px; padding: 0;  }
-	
-	}
+	div.right-divide { border: none; }
+    div.left-divide { border: none; }
+    
+}
 @media only screen and (max-width: 25em) {
 	/* 400 px */
 	/* The columns were too thin to read, so I made them the whole width of the container */
@@ -397,11 +406,11 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 	.CEL-course-number{color: #FFF;height:4.5em;float: left;padding:.75em 0 0 .25em;font-size: .75em;font-weight: bold;}
 	.CEL-course-name{color: #FFF;height:4.5em;float: left;padding:.75em 0 0 .75em;font-size: .75em;font-weight: bold;}
 	
-	}
+}
 
 
 /* =============================================================================
-   HTML5Boilerplate Non-Semantic Helper Classes
+   Non-Semantic Helper Classes
    ========================================================================== */
 
 
@@ -413,7 +422,7 @@ div.row { border-bottom: 2px solid #999; overflow: auto; }
 .hidden {display: none !important;visibility: hidden;}
 
 /* =============================================================================
-   HTML5Boilerplate Print Styles
+   Print Styles
    ========================================================================== */
  
 @media print {
