@@ -57,7 +57,14 @@ $(document).ready(function(){
 	-------------------------------------------------------------Begin Supplementary jQuery Section
 	========================================================== */
 		
-	
+	/* Deep Link Button - Exists in all Learning Objects on last page, post summary. */
+	$('.CEL-ReturnButton').click(function() {
+			var theUrl = $(this).find('.ReturnLink').attr('href')
+				/* hooks the url change to the parent window. if no parent exists, will open in the current tab */
+				window.opener.location = theUrl;
+				/* Force close the pop-up window */
+				self.close();
+	});/* end click */
 /* ========================================================== 
 	--------------------------------------------------------------END Supplementary jQuery Section
 	========================================================== */
